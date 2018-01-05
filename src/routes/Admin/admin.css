@@ -1,0 +1,41 @@
+html,body,#root{
+  width: 100%;min-height: 100%;
+}
+.admin_layout{
+  width:100%;min-height: 100%;
+  position:absolute;bottom:0px;top:0px;left:0px;right:0px;
+}
+.trigger {
+  width:64px;
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+/*menu的logo框*/
+.logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+/*顶部搜索*/
+.headerSearch{
+  text-align:right;width:300px;height:64px;line-height:64px;margin-left:50%;margin-right:20px;
+}
+/*头像*/
+.AvatarDiv{
+  width:13%;text-align:center;height:64px;line-height:64px;display:flex;flexFlow:row
+}
+.Avatar{
+  width:40px;height:40px;border-radius:50%;margin-top:12px;margin-right:10px;
+}
+/*退出Icon*/
+.logout{
+  width:64px;height:64px;line-height:64px;margin-right:10px;margin-left:10px;border:none;
+}
